@@ -1,0 +1,65 @@
+{
+  "name": "Home Media Tracker",
+  "short_name": "HMT",
+  "description": "",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#587D71",
+  "theme_color": "#4DAA57",
+  "dir": "ltr",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/images/addMediaIcon-512x512.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/addMediaIcon-192x192.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "screenshots": [
+
+    {
+      "src": "/images/Screenshot 1.png",
+      "sizes": "776x914",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+
+     {
+      "src": "/images/Screenshot 2.png",
+      "sizes": "776x914",
+      "type": "image/png",
+      "form_factor": "wide"
+    }   
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Add New Media",
+      "short_name": "New Media",
+      "description": "Quickly add new media",
+      "url": "/new-media",
+      "icons": [{ "src": "/images/addMediaIcon-192x192.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "View Wishlist",
+      "short_name": "Wishlist",
+      "description": "View list of everything that has been added to your Wishlist",
+      "url": "/wishlist",
+      "icons": [{ "src": "/images/wishlistIcon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "View Favorites",
+      "short_name": "Favorites",
+      "description": "View list of everything that has been added to your Favorites",
+      "url": "/favorites",
+      "icons": [{ "src": "/images/favoritesIcon-192x192.jpg", "sizes": "192x192" }]
+    }
+  ]
+}
